@@ -1,0 +1,297 @@
+{
+ "catalogo": "SUPERMERCADO_SANDBOX - cafe molido",
+ "moneda": "USD",
+ "simulado": true,
+ "ultima_actualizacion": "2026-10-25",
+ "anaquel_hablador": {
+  "id": "ANQ-3B",
+  "pasillo": "Pasillo 3 (Cafés y bebidas)",
+  "almacen": "SUPERMERCADO-SBX-01 (simulado)"
+ },
+ "instrucciones_ia": "Comparar por precio_100g solo dentro del mismo tipo; incluir/excluir solo por atributos e ingredientes declarados; lo no declarado queda sin confirmar; menor precio no implica mejor calidad; la decision es del comprador; con presupuesto y requisitos, proponer lista y ordenarla por ruta_recogida (picking); el modelo solo publica datos: sin carrito persistente ni sincronizacion automatica.",
+ "ubicaciones_url": "https://raw.githubusercontent.com/AdaptaProERP/SUPERMERCADO_SANDBOX/main/UBICACIONES.md",
+ "productos": [
+  {
+   "id": "SBX-GEN-500",
+   "marca": "MARCA GENÉRICA",
+   "tipo": "mezcla básica",
+   "contenido_g": 500,
+   "precio_usd": 3.6,
+   "precio_100g_usd": 0.72,
+   "ingredientes_declarados": "café molido (100%)",
+   "atributos_declarados": "tueste medio; sin azúcar añadida; sin colorantes declarado",
+   "alergenos_declarados": "ninguno declarado",
+   "ubicacion_fisica": {
+    "almacen": "SUPERMERCADO-SBX-01 (simulado)",
+    "pasillo": "Pasillo 3 (Cafés y bebidas)",
+    "anaquel": "ANQ-3B",
+    "nivel": 1,
+    "posicion": 1
+   },
+   "ruta_recogida": 1,
+   "registro_url": "https://raw.githubusercontent.com/AdaptaProERP/SUPERMERCADO_SANDBOX/main/productos/SBX-GEN-500.md"
+  },
+  {
+   "id": "SBX-GEN-200",
+   "marca": "MARCA GENÉRICA",
+   "tipo": "mezcla básica",
+   "contenido_g": 200,
+   "precio_usd": 1.6,
+   "precio_100g_usd": 0.8,
+   "ingredientes_declarados": "café molido (100%)",
+   "atributos_declarados": "tueste medio; sin azúcar añadida; sin colorantes declarado",
+   "alergenos_declarados": "ninguno declarado",
+   "ubicacion_fisica": {
+    "almacen": "SUPERMERCADO-SBX-01 (simulado)",
+    "pasillo": "Pasillo 3 (Cafés y bebidas)",
+    "anaquel": "ANQ-3B",
+    "nivel": 1,
+    "posicion": 2
+   },
+   "ruta_recogida": 2,
+   "registro_url": "https://raw.githubusercontent.com/AdaptaProERP/SUPERMERCADO_SANDBOX/main/productos/SBX-GEN-200.md"
+  },
+  {
+   "id": "SBX-ANO-500",
+   "marca": "CAFÉ ANÓNIMO",
+   "tipo": "con azúcar añadida",
+   "contenido_g": 500,
+   "precio_usd": 4.4,
+   "precio_100g_usd": 0.88,
+   "ingredientes_declarados": "café molido, azúcar",
+   "atributos_declarados": "tueste medio; con azúcar añadida",
+   "alergenos_declarados": "ninguno declarado",
+   "ubicacion_fisica": {
+    "almacen": "SUPERMERCADO-SBX-01 (simulado)",
+    "pasillo": "Pasillo 3 (Cafés y bebidas)",
+    "anaquel": "ANQ-3B",
+    "nivel": 1,
+    "posicion": 3
+   },
+   "ruta_recogida": 3,
+   "registro_url": "https://raw.githubusercontent.com/AdaptaProERP/SUPERMERCADO_SANDBOX/main/productos/SBX-ANO-500.md"
+  },
+  {
+   "id": "SBX-ANO-200",
+   "marca": "CAFÉ ANÓNIMO",
+   "tipo": "con azúcar añadida",
+   "contenido_g": 200,
+   "precio_usd": 1.9,
+   "precio_100g_usd": 0.95,
+   "ingredientes_declarados": "café molido, azúcar",
+   "atributos_declarados": "tueste medio; con azúcar añadida",
+   "alergenos_declarados": "ninguno declarado",
+   "ubicacion_fisica": {
+    "almacen": "SUPERMERCADO-SBX-01 (simulado)",
+    "pasillo": "Pasillo 3 (Cafés y bebidas)",
+    "anaquel": "ANQ-3B",
+    "nivel": 1,
+    "posicion": 4
+   },
+   "ruta_recogida": 4,
+   "registro_url": "https://raw.githubusercontent.com/AdaptaProERP/SUPERMERCADO_SANDBOX/main/productos/SBX-ANO-200.md"
+  },
+  {
+   "id": "SBX-T10-500",
+   "marca": "TOP10 CAFÉ",
+   "tipo": "mezcla arábica/robusta",
+   "contenido_g": 500,
+   "precio_usd": 4.5,
+   "precio_100g_usd": 0.9,
+   "ingredientes_declarados": "café molido arábica/robusta (100%)",
+   "atributos_declarados": "tueste medio; sin azúcar añadida",
+   "alergenos_declarados": "ninguno declarado",
+   "ubicacion_fisica": {
+    "almacen": "SUPERMERCADO-SBX-01 (simulado)",
+    "pasillo": "Pasillo 3 (Cafés y bebidas)",
+    "anaquel": "ANQ-3B",
+    "nivel": 2,
+    "posicion": 1
+   },
+   "ruta_recogida": 5,
+   "registro_url": "https://raw.githubusercontent.com/AdaptaProERP/SUPERMERCADO_SANDBOX/main/productos/SBX-T10-500.md"
+  },
+  {
+   "id": "SBX-T10-200",
+   "marca": "TOP10 CAFÉ",
+   "tipo": "mezcla arábica/robusta",
+   "contenido_g": 200,
+   "precio_usd": 2.0,
+   "precio_100g_usd": 1.0,
+   "ingredientes_declarados": "café molido arábica/robusta (100%)",
+   "atributos_declarados": "tueste medio; sin azúcar añadida",
+   "alergenos_declarados": "ninguno declarado",
+   "ubicacion_fisica": {
+    "almacen": "SUPERMERCADO-SBX-01 (simulado)",
+    "pasillo": "Pasillo 3 (Cafés y bebidas)",
+    "anaquel": "ANQ-3B",
+    "nivel": 2,
+    "posicion": 2
+   },
+   "ruta_recogida": 6,
+   "registro_url": "https://raw.githubusercontent.com/AdaptaProERP/SUPERMERCADO_SANDBOX/main/productos/SBX-T10-200.md"
+  },
+  {
+   "id": "SBX-A-500",
+   "marca": "CAFÉ SANDBOX A",
+   "tipo": "tostado medio",
+   "contenido_g": 500,
+   "precio_usd": 5.0,
+   "precio_100g_usd": 1.0,
+   "ingredientes_declarados": "café molido (100%)",
+   "atributos_declarados": "tueste medio; sin azúcar añadida; sin gluten declarado",
+   "alergenos_declarados": "ninguno declarado",
+   "ubicacion_fisica": {
+    "almacen": "SUPERMERCADO-SBX-01 (simulado)",
+    "pasillo": "Pasillo 3 (Cafés y bebidas)",
+    "anaquel": "ANQ-3B",
+    "nivel": 2,
+    "posicion": 3
+   },
+   "ruta_recogida": 7,
+   "registro_url": "https://raw.githubusercontent.com/AdaptaProERP/SUPERMERCADO_SANDBOX/main/productos/SBX-A-500.md"
+  },
+  {
+   "id": "SBX-A-200",
+   "marca": "CAFÉ SANDBOX A",
+   "tipo": "tostado medio",
+   "contenido_g": 200,
+   "precio_usd": 2.4,
+   "precio_100g_usd": 1.2,
+   "ingredientes_declarados": "café molido (100%)",
+   "atributos_declarados": "tueste medio; sin azúcar añadida; sin gluten declarado",
+   "alergenos_declarados": "ninguno declarado",
+   "ubicacion_fisica": {
+    "almacen": "SUPERMERCADO-SBX-01 (simulado)",
+    "pasillo": "Pasillo 3 (Cafés y bebidas)",
+    "anaquel": "ANQ-3B",
+    "nivel": 2,
+    "posicion": 4
+   },
+   "ruta_recogida": 8,
+   "registro_url": "https://raw.githubusercontent.com/AdaptaProERP/SUPERMERCADO_SANDBOX/main/productos/SBX-A-200.md"
+  },
+  {
+   "id": "SBX-B-500",
+   "marca": "CAFÉ SANDBOX B",
+   "tipo": "tostado oscuro",
+   "contenido_g": 500,
+   "precio_usd": 5.4,
+   "precio_100g_usd": 1.08,
+   "ingredientes_declarados": "café molido (100%)",
+   "atributos_declarados": "tueste oscuro; sin azúcar añadida",
+   "alergenos_declarados": "ninguno declarado",
+   "ubicacion_fisica": {
+    "almacen": "SUPERMERCADO-SBX-01 (simulado)",
+    "pasillo": "Pasillo 3 (Cafés y bebidas)",
+    "anaquel": "ANQ-3B",
+    "nivel": 3,
+    "posicion": 1
+   },
+   "ruta_recogida": 9,
+   "registro_url": "https://raw.githubusercontent.com/AdaptaProERP/SUPERMERCADO_SANDBOX/main/productos/SBX-B-500.md"
+  },
+  {
+   "id": "SBX-B-200",
+   "marca": "CAFÉ SANDBOX B",
+   "tipo": "tostado oscuro",
+   "contenido_g": 200,
+   "precio_usd": 2.2,
+   "precio_100g_usd": 1.1,
+   "ingredientes_declarados": "café molido (100%)",
+   "atributos_declarados": "tueste oscuro; sin azúcar añadida",
+   "alergenos_declarados": "ninguno declarado",
+   "ubicacion_fisica": {
+    "almacen": "SUPERMERCADO-SBX-01 (simulado)",
+    "pasillo": "Pasillo 3 (Cafés y bebidas)",
+    "anaquel": "ANQ-3B",
+    "nivel": 3,
+    "posicion": 2
+   },
+   "ruta_recogida": 10,
+   "registro_url": "https://raw.githubusercontent.com/AdaptaProERP/SUPERMERCADO_SANDBOX/main/productos/SBX-B-200.md"
+  },
+  {
+   "id": "SBX-C-500",
+   "marca": "CAFÉ SANDBOX C",
+   "tipo": "descafeinado",
+   "contenido_g": 500,
+   "precio_usd": 7.0,
+   "precio_100g_usd": 1.4,
+   "ingredientes_declarados": "café molido descafeinado (100%)",
+   "atributos_declarados": "tueste medio; sin azúcar añadida",
+   "alergenos_declarados": "ninguno declarado",
+   "nota_proceso": "descafeinado es un atributo de PROCESO (reduce la cafeína); no es un ingrediente ni garantiza 0% cafeína",
+   "ubicacion_fisica": {
+    "almacen": "SUPERMERCADO-SBX-01 (simulado)",
+    "pasillo": "Pasillo 3 (Cafés y bebidas)",
+    "anaquel": "ANQ-3B",
+    "nivel": 3,
+    "posicion": 3
+   },
+   "ruta_recogida": 11,
+   "registro_url": "https://raw.githubusercontent.com/AdaptaProERP/SUPERMERCADO_SANDBOX/main/productos/SBX-C-500.md"
+  },
+  {
+   "id": "SBX-C-200",
+   "marca": "CAFÉ SANDBOX C",
+   "tipo": "descafeinado",
+   "contenido_g": 200,
+   "precio_usd": 3.1,
+   "precio_100g_usd": 1.55,
+   "ingredientes_declarados": "café molido descafeinado (100%)",
+   "atributos_declarados": "tueste medio; sin azúcar añadida",
+   "alergenos_declarados": "ninguno declarado",
+   "nota_proceso": "descafeinado es un atributo de PROCESO (reduce la cafeína); no es un ingrediente ni garantiza 0% cafeína",
+   "ubicacion_fisica": {
+    "almacen": "SUPERMERCADO-SBX-01 (simulado)",
+    "pasillo": "Pasillo 3 (Cafés y bebidas)",
+    "anaquel": "ANQ-3B",
+    "nivel": 3,
+    "posicion": 4
+   },
+   "ruta_recogida": 12,
+   "registro_url": "https://raw.githubusercontent.com/AdaptaProERP/SUPERMERCADO_SANDBOX/main/productos/SBX-C-200.md"
+  },
+  {
+   "id": "SBX-ACM-500",
+   "marca": "ACME COFFEE",
+   "tipo": "100% arábica",
+   "contenido_g": 500,
+   "precio_usd": 8.0,
+   "precio_100g_usd": 1.6,
+   "ingredientes_declarados": "café molido arábica (100%)",
+   "atributos_declarados": "tueste medio; sin azúcar añadida; sin gluten declarado; sin colorantes declarado",
+   "alergenos_declarados": "ninguno declarado",
+   "ubicacion_fisica": {
+    "almacen": "SUPERMERCADO-SBX-01 (simulado)",
+    "pasillo": "Pasillo 3 (Cafés y bebidas)",
+    "anaquel": "ANQ-3B",
+    "nivel": 4,
+    "posicion": 1
+   },
+   "ruta_recogida": 13,
+   "registro_url": "https://raw.githubusercontent.com/AdaptaProERP/SUPERMERCADO_SANDBOX/main/productos/SBX-ACM-500.md"
+  },
+  {
+   "id": "SBX-ACM-200",
+   "marca": "ACME COFFEE",
+   "tipo": "100% arábica",
+   "contenido_g": 200,
+   "precio_usd": 3.6,
+   "precio_100g_usd": 1.8,
+   "ingredientes_declarados": "café molido arábica (100%)",
+   "atributos_declarados": "tueste medio; sin azúcar añadida; sin gluten declarado; sin colorantes declarado",
+   "alergenos_declarados": "ninguno declarado",
+   "ubicacion_fisica": {
+    "almacen": "SUPERMERCADO-SBX-01 (simulado)",
+    "pasillo": "Pasillo 3 (Cafés y bebidas)",
+    "anaquel": "ANQ-3B",
+    "nivel": 4,
+    "posicion": 2
+   },
+   "ruta_recogida": 14,
+   "registro_url": "https://raw.githubusercontent.com/AdaptaProERP/SUPERMERCADO_SANDBOX/main/productos/SBX-ACM-200.md"
+  }
+ ]
+}
